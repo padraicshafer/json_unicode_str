@@ -23,7 +23,7 @@ def json_array_as_str():
 
 @pytest.fixture
 def json_array_as_list():
-    return ["value_1", 2, 3.0, "false", "null"]
+    return ["value_1", 2, 3.0, False, None]
 
 
 @pytest.fixture(params=("json_array_as_str", "json_array_as_list"))
