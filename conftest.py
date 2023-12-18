@@ -18,7 +18,7 @@ def json_obj(request: pytest.FixtureRequest):
 
 @pytest.fixture
 def json_array_as_str():
-    return '["value_1", 2, 3.0, "false", "null"]'
+    return '["value_1", 2, 3.0, false, null]'
 
 
 @pytest.fixture
